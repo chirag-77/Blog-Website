@@ -63,7 +63,7 @@ const post=new Post({
   postTitle:req.body.title,
   postText:req.body.postText
 });
-  post.save();
+
   post.save(function(err){
 
   if (!err){
